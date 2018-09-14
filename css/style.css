@@ -1,0 +1,91 @@
+/* Global */
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            
+        }
+
+        * {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0 ;
+        }
+        button, strong {
+            text-transform: uppercase;
+        }
+/* App bar */
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* Channels list */ 
+               /*styles for channel area*/
+               h2 {
+                /* #2 #colorful #channelandchat */
+                background-color: white;
+            }
+    
+            /*styles for channel area for ul*/
+            ul {
+                /* #2 #colorful #channelandchat */
+                background-color: white;
+            }
+    #high-light {
+        border-style: solid;
+        border-width: 0px 0px 0px 5px;
+        border-color: #3F51B5
+    }
+/* Tab bar */
+/* Messages */
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        /* adding the DIV 80% width */
+        div {
+            /* 80% width */
+            width: 80%;
+        }
+
+        /*Change the preset link color to primary text color.*/
+        a:link {
+        color: black;
+        }
+        a:visited {
+        color: black;
+        }
